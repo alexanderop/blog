@@ -8,6 +8,8 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@gridsome/source-filesystem": "^0.6.2",
+    "@gridsome/transformer-remark": "^0.6.4",
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "autoprefixer": "^9",
     "gridsome": "^0.7.0",
@@ -28,7 +30,7 @@
   },
   "husky": {
     "hooks": {
-        "pre-commit": "npm run vue-cli-service lint --fix"
+      "pre-commit": "npm run vue-cli-service lint --fix"
     }
-}
+  }
 }

@@ -2,7 +2,7 @@
   <div class="bg-black">
     <div class="bg-black text-white container mx-auto">
       <Header />
-      <main>
+      <main class="max-w-3xl mx-auto px-4 sm:px-6 xl:max-w-5xl xl:px-0">
         <slot />
       </main>
       <Footer />
