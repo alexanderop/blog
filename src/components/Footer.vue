@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-purple-700 text-white">
+  <footer class="p-5">
     <div
       class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8"
     >
@@ -10,10 +10,7 @@
       </div>
       <ul class="flex items-center space-x-8">
         <li>
-          <a
-            href="mailto:me@example.com"
-            class="text-white hover:text-gray-400"
-          >
+          <a href="mailto:me@example.com" class="hover:text-yellow-500">
             <svg
               width="25"
               height="20"
@@ -31,7 +28,7 @@
           <a
             href="https://github.com/alexanderop"
             target="_blank"
-            class="text-white hover:text-gray-400"
+            class="hover:text-yellow-500"
           >
             <svg
               width="20"
@@ -51,7 +48,7 @@
           <a
             href="https://twitter.com/drehimself"
             target="_blank"
-            class="text-white hover:text-gray-400"
+            class="hover:text-yellow-500"
           >
             <svg
               width="20"

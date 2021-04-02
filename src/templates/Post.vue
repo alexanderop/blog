@@ -29,7 +29,7 @@
         >
           <div class="prose max-w-none pt-10 pb-8">
             <div
-              class="markdown-body mb-8"
+              class="markdown"
               id="article-area"
               v-html="$page.post.content"
             />
