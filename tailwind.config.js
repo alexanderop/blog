@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
   purge: [
     './src/**/*.vue',
@@ -6,9 +8,13 @@ module.exports = {
     './src/**/*.html',
   ],
   theme: {
-    // your tailwind config goes here
-    // container: {
-    //  center: true,
-    // },
+    colors: {
+      primary: colors.coolGray[50],
+      secondary: colors.coolGray[200],
+      tertiary: colors.purple[500],
+      green: colors.green[500],
+      hover: colors.orange[500],
+      background: colors.gray[900],
+    },
   },
 }

@@ -4,14 +4,12 @@
       class="container mx-auto flex flex-wrap justify-between items-center py-8"
     >
       <div>
-        <g-link to="/" class="text-copy-primary hover:text-yellow-500"
-          >ALEX</g-link
-        >
+        <g-link to="/" class="text-tertiary hover:text-hover">ALEX</g-link>
       </div>
       <div class="block lg:hidden">
         <button
           @click="toggle"
-          class="flex items-center px-3 py-2 border rounded border-purple-500 hover:text-yellow-500 hover:border-yellow-500"
+          class="flex items-center px-3 py-2 border rounded border-purple-500 hover:text-hover hover:border-stext-hover"
         >
           <svg
             class="current-color h-3 w-3"
@@ -27,17 +25,17 @@
         :class="isOpen ? 'block' : 'hidden'"
       >
         <li>
-          <g-link to="/about" class="text-copy-primary hover:text-yellow-500"
+          <g-link to="/about" class="text-copy-primary hover:text-hover"
             >About</g-link
           >
         </li>
         <li>
-          <g-link to="/blog" class="text-copy-primary hover:text-yellow-500"
+          <g-link to="/blog" class="text-copy-primary hover:text-hover"
             >Blog</g-link
           >
         </li>
         <li>
-          <g-link to="/contact" class="text-copy-primary hover:text-yellow-500"
+          <g-link to="/contact" class="text-copy-primary hover:text-hover"
             >Contact</g-link
           >
         </li>

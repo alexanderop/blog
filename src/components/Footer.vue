@@ -4,13 +4,13 @@
       class="container mx-auto flex flex-col lg:flex-row items-center justify-between py-8"
     >
       <div class="mb-8 lg:mb-0">
-        <div>
-          Copyright {{ new Date().getFullYear() }}. All rights reserved.
+        <div class="text-green">
+          © Alexander Opalic {{ new Date().getFullYear() }}.
         </div>
       </div>
       <ul class="flex items-center space-x-8">
         <li>
-          <a href="mailto:me@example.com" class="hover:text-yellow-500">
+          <a href="mailto:me@example.com" class="hover:text-hover">
             <svg
               width="25"
               height="20"
@@ -28,7 +28,7 @@
           <a
             href="https://github.com/alexanderop"
             target="_blank"
-            class="hover:text-yellow-500"
+            class="hover:text-hover"
           >
             <svg
               width="20"
@@ -48,7 +48,7 @@
           <a
             href="https://twitter.com/drehimself"
             target="_blank"
-            class="hover:text-yellow-500"
+            class="hover:text-hover"
           >
             <svg
               width="20"
