@@ -4,7 +4,7 @@
       class="container mx-auto flex flex-wrap justify-between items-center py-8"
     >
       <div>
-        <g-link to="/" class="text-tertiary hover:text-hover">ALEX</g-link>
+        <g-link to="/" class="text-tertiary hover:text-hover border-2 p-2 border-green font-bold">ALEX.DEV</g-link>
       </div>
       <div class="block lg:hidden">
         <button

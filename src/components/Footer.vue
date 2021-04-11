@@ -10,7 +10,7 @@
       </div>
       <ul class="flex items-center space-x-8">
         <li>
-          <a href="mailto:me@example.com" class="hover:text-hover">
+          <a href="mailto:alex.opalic.dev@gmail.com" class="hover:text-hover">
             <svg
               width="25"
               height="20"
