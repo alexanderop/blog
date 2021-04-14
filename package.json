@@ -13,6 +13,7 @@
     "@tailwindcss/postcss7-compat": "^2.0.2",
     "autoprefixer": "^9",
     "gridsome": "^0.7.0",
+    "gridsome-plugin-remark-prismjs-all": "^0.3.5",
     "gridsome-plugin-tailwindcss": "^4.1.1",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"

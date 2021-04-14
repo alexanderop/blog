@@ -22,6 +22,7 @@
           </p>
           <div class="flex justify-center">
             <button
+            onclick="location.href='mailto:alex.opalic.dev@gmail.com';"
               class="inline-flex text-primary bg-tertiary border-0 py-2 px-6 focus:outline-none hover:bg-hover rounded text-lg"
             >
               Get in touch

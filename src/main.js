@@ -2,6 +2,8 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 import '~/assets/global.css'
 import DefaultLayout from '~/layouts/Default.vue'
+import 'gridsome-plugin-remark-prismjs-all/themes/night-owl.css';
+import 'prismjs/plugins/line-numbers/prism-line-numbers.css';
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component

@@ -15,6 +15,7 @@ module.exports = {
       green: colors.green[500],
       hover: colors.orange[500],
       background: colors.gray[900],
+      gray800: colors.gray[800],
     },
   },
 }
