@@ -2,11 +2,11 @@
   <Layout>
     <div class="divide-y divide-tertiary">
       <h1
-        class="text-3xl leading-9 font-extrabold text-secondary tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14"
+        class="text-3xl leading-9 font-extrabold text-primary tracking-tight sm:text-4xl sm:leading-10 md:text-6xl md:leading-14"
       >
         Latest
       </h1>
-      <p class="text-lg leading-7 text-gray">All my latest blog posts.</p>
+      <p class="text-lg leading-7 text-secondary">All my latest blog posts.</p>
     </div>
     <ul class="divide-y divide-tertiary">
       <li class="py-12" v-for="post in $page.posts.edges" :key="post.id">
@@ -15,18 +15,18 @@
         >
           <dl>
             <dt class="sr-only">Published on</dt>
-            <dd class="text-base leading-6 font-medium">
+            <dd class="text-base leading-6 font-medium text-secondary">
               <time :datetime="post.node.date">{{ post.node.date }}</time>
             </dd>
           </dl>
           <div class="space-y-5 xl:col-span-3">
             <div class="space-y-6">
               <h2 class="text-2xl leading-8 font-bold tracking-tight">
-                <a class="text-gray-300" :href="post.node.path">{{
+                <a class="text-hover" :href="post.node.path">{{
                   post.node.title
                 }}</a>
               </h2>
-              <div class="prose max-w-none text-gray">
+              <div class="prose max-w-none text-primary">
                 <p>{{ post.node.summary }}</p>
               </div>
             </div>

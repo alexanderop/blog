@@ -63,8 +63,8 @@
           <li class="mr-1 text-secondary">React</li>
           <li class="mr-1 text-secondary">Vue</li>
           <li class="mr-1 text-secondary">Laravel</li>
-          <li class="mr-1 text-secondary">Styled-components</li>
-          <li class="mr-1 text-secondary">NuxtJS</li>
+          <li class="mr-1 text-secondary">Nuxt</li>
+          <li class="mr-1 text-secondary">Gridsome</li>
           <li class="mr-1 text-secondary">Tailwind</li>
         </ul>
       </div>
@@ -74,6 +74,7 @@
           <li class="mr-1 text-secondary">Git</li>
           <li class="mr-1 text-secondary">Vs code</li>
           <li class="mr-1 text-secondary">npm</li>
+          <li class="mr-1 text-secondary">yarn</li>
         </ul>
       </div>
     </div>

@@ -6,7 +6,7 @@
       <div>
         <g-link
           to="/"
-          class="text-tertiary hover:text-hover border-2 p-2 border-green font-bold"
+          class="text-primary hover:text-hover border-2 p-2 border-green font-bold"
           >ALEX.DEV</g-link
         >
       </div>

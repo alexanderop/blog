@@ -10,7 +10,7 @@
       </div>
       <ul class="flex items-center space-x-8">
         <li>
-          <a href="mailto:alex.opalic.dev@gmail.com" class="hover:text-hover">
+          <a    aria-label="Email" href="mailto:alex.opalic.dev@gmail.com" class="hover:text-hover">
             <svg
               width="25"
               height="20"
@@ -33,6 +33,7 @@
             <svg
               width="20"
               height="19"
+              aria-label="Github"
               fill="currentColor"
               xmlns="http://www.w3.org/2000/svg"
             >
@@ -46,9 +47,10 @@
 
         <li>
           <a
-            href="https://twitter.com/drehimself"
+            href="https://twitter.com/alexanderopalic"
             target="_blank"
             class="hover:text-hover"
+            aria-label="Twitter"
           >
             <svg
               width="20"
