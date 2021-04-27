@@ -28,6 +28,7 @@
               Get in touch
             </button>
             <button
+            onClick='window.open("https://drive.google.com/file/d/1Wmtpwf_taeS3yOMREMXQT7nmblXKNlgl/view?usp=sharing");'
               class="ml-4 inline-flex text-primary bg-tertiary border-0 py-2 px-6 focus:outline-none hover:bg-hover hover:text-primary rounded text-lg"
             >
               My resume
