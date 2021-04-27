@@ -51,11 +51,28 @@ module.exports = {
     Post: '/blog/:path',
   },
   transformers: {
+    //Add markdown support to all file-system sources
     remark: {
-      autolinkClassName: 'icon icon-link heading-anchor',
       externalLinksTarget: '_blank',
-      externalLinksRel: ['noopener'],
+      externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       anchorClassName: 'icon icon-link',
-    },
-  },
+      plugins: [
+        ['gridsome-plugin-remark-prismjs-all', {
+            highlightClassName: "gridsome-highlight",
+            codeTitleClassName: "gridsome-code-title",
+            classPrefix: 'language-',
+            aliases: {},
+            noInlineHighlight: false,
+            showLineNumbers: false,     //  `require("prismjs/plugins/line-numbers/prism-line-numbers.css");`
+            languageExtensions: [],
+            prompt: {                   //  `require("prismjs/plugins/command-line/prism-command-line.css");`
+                user: `root`,
+                host: `localhost`,
+                global: false,
+            }
+        }]
+      ]
+    }
+    }
+  }
 }

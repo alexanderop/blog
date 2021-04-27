@@ -6,14 +6,14 @@
           <dl class="space-y-10">
             <div>
               <dt class="sr-only">Published on</dt>
-              <dd class="text-base leading-6 font-medium text-gray-300">
+              <dd class="text-base text-green leading-6 font-medium text-gray-300">
                 <time :datetime="$page.post.date">{{ $page.post.date }}</time>
               </dd>
             </div>
           </dl>
           <div>
             <h1
-              class="text-3xl leading-9 font-extrabold text-gray-200 tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14"
+              class="text-3xl text-tertiary leading-9 font-extrabold text-gray-200 tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-14"
             >
               {{ $page.post.title }}
             </h1>
