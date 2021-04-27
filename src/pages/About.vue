@@ -11,8 +11,14 @@
     <h1 class="text-2xl font-bold text-tertiary mb-2 mt-8">Work Expierence</h1>
     <div class="flex flex-col space-y-6">
       <section class="flex items-center">
-        <span class="relative flex h-4 w-4 mr-6"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green border-tertiary"></span>
-          <span class="relative inline-flex rounded-full h-4 w-4 bg-transparent border-2 border-green"></span></span>
+        <span class="relative flex h-4 w-4 mr-6"
+          ><span
+            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green border-tertiary"
+          ></span>
+          <span
+            class="relative inline-flex rounded-full h-4 w-4 bg-transparent border-2 border-green"
+          ></span
+        ></span>
         <div class="flex-1">
           <span class="text-secondary">October 2019 - Current </span>
           <h1 class="text-lg font-bold text-primary">
@@ -22,8 +28,14 @@
         </div>
       </section>
       <section class="flex items-center">
-        <span class="relative flex h-4 w-4 mr-6"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green border-tertiary"></span>
-          <span class="relative inline-flex rounded-full h-4 w-4 bg-transparent border-2 border-green"></span></span>
+        <span class="relative flex h-4 w-4 mr-6"
+          ><span
+            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green border-tertiary"
+          ></span>
+          <span
+            class="relative inline-flex rounded-full h-4 w-4 bg-transparent border-2 border-green"
+          ></span
+        ></span>
         <div class="flex-1">
           <span class="text-secondary">Mai 2019 - September 2019</span>
           <h1 class="text-lg font-bold text-primary">
@@ -68,8 +80,14 @@
     <h1 class="text-2xl font-bold text-tertiary mb-2 mt-8">Education</h1>
     <div class="flex flex-col space-y-6">
       <section class="flex items-center">
-        <span class="relative flex h-4 w-4 mr-6"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green border-tertiary"></span>
-          <span class="relative inline-flex rounded-full h-4 w-4 bg-transparent border-2 border-green"></span></span>
+        <span class="relative flex h-4 w-4 mr-6"
+          ><span
+            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green border-tertiary"
+          ></span>
+          <span
+            class="relative inline-flex rounded-full h-4 w-4 bg-transparent border-2 border-green"
+          ></span
+        ></span>
         <div class="flex-1">
           <span class="text-secondary">October 2014 - October 2019 </span>
           <h1 class="text-lg font-bold text-primary">
@@ -101,7 +119,6 @@
 </template>
 
 <script>
-
 export default {
   metaInfo: {
     title: 'About me',
