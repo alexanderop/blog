@@ -13,6 +13,7 @@
       <div class="block lg:hidden">
         <button
           @click="toggle"
+          aria-label="BurgerIconButton"
           class="flex items-center px-3 py-2 border rounded border-purple-500 hover:text-hover hover:border-stext-hover"
         >
           <svg
