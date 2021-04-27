@@ -2,9 +2,9 @@
   <Layout>
     <section class="body-font">
       <div
-        class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center"
+        class="container mx-auto flex px-5 md:py-24 md:flex-row flex-col items-center"
       >
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
+        <div class="hidden md:block lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
           <Hero class="fill-current w-full" />
         </div>
         <div
