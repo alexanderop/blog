@@ -7,6 +7,11 @@ const tailwindcss = require('tailwindcss')
 
 module.exports = {
   siteName: 'Alexander Opalic',
+  siteDescription: 'Personal Blog of Alexander Opalic',
+  siteUrl: 'https://alexop.dev',
+  titleTemplate: `%s | Alexander Opalic`,
+  author: 'Alexander Opalic',
+  keywords: 'Opalic, Blog, Software, Full Stack',
   chainWebpack: (config) => {
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()
@@ -57,21 +62,25 @@ module.exports = {
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       anchorClassName: 'icon icon-link',
       plugins: [
-        ['gridsome-plugin-remark-prismjs-all', {
-            highlightClassName: "gridsome-highlight",
-            codeTitleClassName: "gridsome-code-title",
+        [
+          'gridsome-plugin-remark-prismjs-all',
+          {
+            highlightClassName: 'gridsome-highlight',
+            codeTitleClassName: 'gridsome-code-title',
             classPrefix: 'language-',
             aliases: {},
             noInlineHighlight: false,
-            showLineNumbers: false,     //  `require("prismjs/plugins/line-numbers/prism-line-numbers.css");`
+            showLineNumbers: false, //  `require("prismjs/plugins/line-numbers/prism-line-numbers.css");`
             languageExtensions: [],
-            prompt: {                   //  `require("prismjs/plugins/command-line/prism-command-line.css");`
-                user: `root`,
-                host: `localhost`,
-                global: false,
-            }
-        }]
-      ]
-    }
-    }
-  }
+            prompt: {
+              //  `require("prismjs/plugins/command-line/prism-command-line.css");`
+              user: `root`,
+              host: `localhost`,
+              global: false,
+            },
+          },
+        ],
+      ],
+    },
+  },
+}

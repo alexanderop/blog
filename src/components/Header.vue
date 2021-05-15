@@ -44,7 +44,7 @@
             >Contact</g-link
           >
         </li>
-         <li>
+        <li>
           <g-link to="/imprint" class="text-copy-primary hover:text-hover"
             >Imprint</g-link
           >

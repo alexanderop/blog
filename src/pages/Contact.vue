@@ -9,7 +9,7 @@
             Contact Me
           </h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
-          If you want to contact me just write me an email to
+            If you want to contact me just write me an email to
           </p>
           <p class="text-bold text-hover pt-4">alex.opalic.dev@gmail.com</p>
         </div>
@@ -25,6 +25,4 @@ export default {
   },
 }
 </script>
-</script>
-
 <style lang="scss" scoped></style>
