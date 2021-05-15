@@ -6,7 +6,7 @@
 const tailwindcss = require('tailwindcss')
 
 module.exports = {
-  siteName: 'Alex',
+  siteName: 'Alexander Opalic',
   chainWebpack: (config) => {
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()

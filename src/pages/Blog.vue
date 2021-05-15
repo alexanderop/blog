@@ -69,7 +69,7 @@ query Posts ($page: Int) {
 <script>
 export default {
   metaInfo: {
-    title: 'View my blog posts',
+    title: 'Blog',
   },
 }
 </script>

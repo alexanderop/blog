@@ -19,7 +19,12 @@
 </template>
 
 <script>
-export default {}
+export default {
+  metaInfo: {
+    title: 'Contact',
+  },
+}
+</script>
 </script>
 
 <style lang="scss" scoped></style>
