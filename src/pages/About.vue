@@ -20,7 +20,26 @@
           ></span
         ></span>
         <div class="flex-1">
-          <span class="text-secondary">October 2019 - Current </span>
+          <span class="text-secondary">July 2021 - Current </span>
+          <h1 class="text-lg font-bold text-primary">
+            Full Stack Developer (Laravel + Vue)
+          </h1>
+          <h2 class="text-base text-secondary font-bold">
+            IU International University of Applied Sciences
+          </h2>
+        </div>
+      </section>
+      <section class="flex items-center">
+        <span class="relative flex h-4 w-4 mr-6"
+          ><span
+            class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green border-tertiary"
+          ></span>
+          <span
+            class="relative inline-flex rounded-full h-4 w-4 bg-transparent border-2 border-green"
+          ></span
+        ></span>
+        <div class="flex-1">
+          <span class="text-secondary">October 2019 - June 2021 </span>
           <h1 class="text-lg font-bold text-primary">
             Software Developer (Laravel + Vue)
           </h1>
