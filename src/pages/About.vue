@@ -20,7 +20,14 @@
           ></span
         ></span>
         <div class="flex-1">
-          <span class="text-secondary">July 2021 - Current </span>
+          <span class="text-secondary">January 2022 - Current </span>
+          <h1 class="text-lg font-bold text-primary">
+            Senior Frontend Developer
+          </h1>
+          <h2 class="text-base text-secondary font-bold">Diva-e</h2>
+        </div>
+        <div class="flex-1">
+          <span class="text-secondary">July 2021 - December 2021 </span>
           <h1 class="text-lg font-bold text-primary">
             Full Stack Developer (Laravel + Vue)
           </h1>

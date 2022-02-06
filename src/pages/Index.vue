@@ -20,7 +20,7 @@
           <p class="mb-8 leading-relaxed text-secondary">
             Welcome to my Site. I am a Full Stack Developer I design and develop
             responsive, optimized and efficient websites. Currently working at
-            IU International University of Applied Sciences
+            Diva-e.
           </p>
           <div class="flex justify-center">
             <button
