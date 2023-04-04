@@ -2,18 +2,18 @@
   <Layout>
     <section class="body-font">
       <div
-        class="container mx-auto flex px-5 md:py-24 md:flex-row flex-col items-center"
+        class="container flex flex-col items-center px-5 mx-auto md:py-24 md:flex-row"
       >
         <div
-          class="hidden md:block lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10"
+          class="hidden w-5/6 mb-10 md:block lg:max-w-lg lg:w-full md:w-1/2 md:mb-0"
         >
-          <Hero class="fill-current w-full" />
+          <Hero class="w-full fill-current" />
         </div>
         <div
-          class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
+          class="flex flex-col items-center text-center lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 md:items-start md:text-left"
         >
           <h1
-            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-tertiary"
+            class="mb-4 text-3xl font-medium title-font sm:text-4xl text-tertiary"
           >
             Hello ! <br class="hidden lg:inline-block" />I'm Alexander Opalic
           </h1>
@@ -25,13 +25,13 @@
           <div class="flex justify-center">
             <button
               onclick="location.href='mailto:alex.opalic.dev@gmail.com';"
-              class="inline-flex text-background bg-secondary border-0 py-2 px-6 focus:outline-none hover:bg-hover rounded text-lg"
+              class="inline-flex px-6 py-2 text-lg border-0 rounded text-background bg-secondary focus:outline-none hover:bg-hover"
             >
               Get in touch
             </button>
             <button
-              onClick='window.open("https://drive.google.com/file/d/1ESEODvvUqg81tXuLw9YAHIdQvkwP4dys/view?usp=sharing");'
-              class="ml-4 inline-flex text-background bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-hover hover:text-primary rounded text-lg"
+              onClick='window.open("https://drive.google.com/file/d/1BsWmEFumwsAKih62k50K3CAKt0Ax5cze/view?usp=sharing");'
+              class="inline-flex px-6 py-2 ml-4 text-lg border-0 rounded text-background bg-primary focus:outline-none hover:bg-hover hover:text-primary"
             >
               My resume
             </button>
