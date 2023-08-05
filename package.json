@@ -16,6 +16,7 @@
     "gridsome-plugin-remark-prismjs-all": "^0.3.5",
     "gridsome-plugin-remark-youtube": "^1.0.1",
     "gridsome-plugin-tailwindcss": "^4.1.1",
+    "html2pdf.js": "^0.10.1",
     "postcss": "^7",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17"
   },
