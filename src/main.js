@@ -4,6 +4,7 @@ import '~/assets/global.css'
 import DefaultLayout from '~/layouts/Default.vue'
 import 'gridsome-plugin-remark-prismjs-all/themes/night-owl.css'
 import 'prismjs/plugins/line-numbers/prism-line-numbers.css'
+import VueMeta from 'vue-meta'
 
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
@@ -35,4 +36,5 @@ export default function (Vue, { router, head, isClient }) {
     { property: 'og:site_name', content: 'Alexander Opalic' }
   )
   Vue.component('Layout', DefaultLayout)
+  Vue.use(VueMeta)
 }

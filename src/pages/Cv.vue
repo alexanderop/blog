@@ -208,9 +208,15 @@
 </template>
 
 <script>
-import html2pdf from 'html2pdf.js'
-
 export default {
+  metaInfo: {
+    script: [
+      {
+        src: 'https://unpkg.com/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js',
+        body: true,
+      },
+    ],
+  },
   data() {
     return {
       CV: {
