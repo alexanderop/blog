@@ -209,16 +209,9 @@
 
 <script>
 export default {
-  metaInfo: {
-    script: [
-      {
-        src: 'https://unpkg.com/html2pdf.js@0.10.1/dist/html2pdf.bundle.min.js',
-        body: true,
-      },
-    ],
-  },
   data() {
     return {
+      html2pdfFunction: null,
       CV: {
         fullName: 'Alexander Opalic',
         role: 'SENIOR FULL STACK DEVELOPER',
@@ -318,10 +311,25 @@ export default {
       },
     }
   },
+  mounted() {
+    if (typeof window === 'undefined') return // Ensure this code runs client-side
+
+    // If you need to do any initialization for html2pdf, do it here
+    // ...
+  },
   methods: {
     generatePDF() {
+      if (this.html2pdfFunction) {
+        this.createPdf()
+      } else {
+        import('html2pdf.js').then((module) => {
+          this.html2pdfFunction = module.default
+          this.createPdf()
+        })
+      }
+    },
+    createPdf() {
       const element = document.getElementById('cv')
-
       const opt = {
         margin: 10,
         filename: 'CV.pdf',
@@ -330,7 +338,7 @@ export default {
         jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
       }
 
-      html2pdf()
+      this.html2pdfFunction()
         .from(element)
         .set(opt)
         .toPdf()
