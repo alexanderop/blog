@@ -30,7 +30,7 @@
               Get in touch
             </button>
             <button
-              onClick='window.open("https://drive.google.com/file/d/1BsWmEFumwsAKih62k50K3CAKt0Ax5cze/view?usp=sharing");'
+              onClick='window.open("https://drive.google.com/file/d/1IgYL2DOuzM1D1T-UqCpiusuHCh1rL1LN/view");'
               class="inline-flex px-6 py-2 ml-4 text-lg border-0 rounded text-background bg-primary focus:outline-none hover:bg-hover hover:text-primary"
             >
               My resume
